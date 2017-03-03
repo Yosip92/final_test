@@ -1,4 +1,17 @@
+@import 'fonts.css';
 body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+section {
+  height: 400px;
+  text-align: center;
+}
+#header {
+  height: 100px;
+  text-align: center;
 }
