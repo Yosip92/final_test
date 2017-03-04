@@ -1,17 +1,68 @@
 @import 'fonts.css';
+@white-text: #ffffff;
+@black-text: #393939;
+@height-footer-and-header: 200px;
+
 body {
     background: #fff;
     font-family: TitilliumWeb, sans-serif;
+    // .wrapper {
+    //     padding-left: 200px;
+    //     padding-right: 200px;
+    // }
+    #header {
+        height: @height-footer-and-header;
+        background: #87509c;
+        padding-left: 170px;
+        padding-right: 170px;
+        img {
+            margin-left: 40px;
+        }
+    }
+    .section-work {
+        background: #87509c;
+    }
+    .section-services {
+        background: #17c2a4;
+    }
+    .section-team {
+        background: #e7f1f8;
+    }
+    .section-skills {
+        background: #ffffff;
+    }
+    .section-portfolio {
+        background: #ffdd99;
+    }
+    .section-about {
+        background: #d74680;
+    }
+    .section-form {
+        background: #3c5499;
+    }
+    #footer {
+        height: @height-footer-and-header;
+        text-align: center;
+        background: #344b8e;
+        padding-left: 170px;
+        padding-right: 170px;
+    }   
 }
 .container {
-    max-width: 500px;
     margin: 0 auto;
+    font-weight: bold;
+    font-size: 40px;
+    
 }
 section {
-    height: 400px;
+    height: 1000px;
     text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
 }
-#header {
-    height: 100px;
-    text-align: center;
-}
+.white-text {
+        color: @white-text;
+    }
+.black-text {
+        color: @black-text;
+    }

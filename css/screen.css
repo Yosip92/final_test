@@ -3,15 +3,57 @@ body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
 }
+body #header {
+  height: 200px;
+  background: #87509c;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+body #header img {
+  margin-left: 40px;
+}
+body .section-work {
+  background: #87509c;
+}
+body .section-services {
+  background: #17c2a4;
+}
+body .section-team {
+  background: #e7f1f8;
+}
+body .section-skills {
+  background: #ffffff;
+}
+body .section-portfolio {
+  background: #ffdd99;
+}
+body .section-about {
+  background: #d74680;
+}
+body .section-form {
+  background: #3c5499;
+}
+body #footer {
+  height: 200px;
+  text-align: center;
+  background: #344b8e;
+  padding-left: 170px;
+  padding-right: 170px;
+}
 .container {
-  max-width: 500px;
   margin: 0 auto;
+  font-weight: bold;
+  font-size: 40px;
 }
 section {
-  height: 400px;
+  height: 1000px;
   text-align: center;
+  padding-left: 170px;
+  padding-right: 170px;
 }
-#header {
-  height: 100px;
-  text-align: center;
+.white-text {
+  color: #ffffff;
+}
+.black-text {
+  color: #393939;
 }
