@@ -1,4 +1,6 @@
 @import 'fonts.css';
+@import 'less/header.css';
+@import 'less/services.css';
 @white-text: #ffffff;
 @black-text: #393939;
 @height-footer-and-header: 200px;
@@ -10,35 +12,52 @@ body {
     //     padding-left: 200px;
     //     padding-right: 200px;
     // }
-    #header {
-        height: @height-footer-and-header;
-        background: #87509c;
-        padding-left: 170px;
-        padding-right: 170px;
-        img {
-            margin-left: 40px;
-        }
+
+    .section__title {
+        position: relative;
+        margin: 0 0 30px 0;
+        padding: 0 0 20px 0;
     }
-    .section-work {
-        background: #87509c;
-    }
-    .section-services {
-        background: #17c2a4;
+    .section__title:after {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 63px;
+        height: 4px;
+        content: '';
+        margin: auto;
+        background: #14a58c;
+        position: absolute;
     }
     .section-team {
         background: #e7f1f8;
+        .section__title:after {
+            background: #c8d9e5;
+        }
     }
     .section-skills {
         background: #ffffff;
+        .section__title:after {
+            background: #dfe8ed;
+        }
     }
     .section-portfolio {
         background: #ffdd99;
+        .section__title:after {
+            background: #e5c37f;
+        }
     }
     .section-about {
         background: #d74680;
+        .section__title:after {
+            background: #b73c6d;
+        }
     }
     .section-form {
         background: #3c5499;
+        .section__title:after {
+            background: #273a71;
+        }
     }
     #footer {
         height: @height-footer-and-header;
@@ -46,23 +65,25 @@ body {
         background: #344b8e;
         padding-left: 170px;
         padding-right: 170px;
-    }   
+    }
 }
+
 .container {
     margin: 0 auto;
-    font-weight: bold;
-    font-size: 40px;
-    
 }
 section {
-    height: 1000px;
+    height: 750px;
     text-align: center;
     padding-left: 170px;
     padding-right: 170px;
 }
 .white-text {
-        color: @white-text;
-    }
+    color: @white-text;
+    font-weight: bold;
+    font-size: 40px;
+}
 .black-text {
-        color: @black-text;
-    }
+    color: @black-text;
+    font-weight: bold;
+    font-size: 40px;
+}
