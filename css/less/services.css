@@ -1,0 +1,11 @@
+.section-services {
+  background: #17c2a4;
+  padding-top: 120px;
+}
+.section-services a {
+  font-size: 18px;
+  color: #ffffff;
+}
+.section-services a:hover {
+  text-decoration: none;
+}
