@@ -68,3 +68,29 @@
   padding-top: 16px;
   padding-bottom: 24px;
 }
+@media screen and (max-width: 1540px) {
+  .section-work {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-work {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-work {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 1200px;
+  }
+  .header {
+    height: 800px;
+  }
+}

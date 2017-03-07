@@ -1,13 +1,20 @@
 @import 'fonts.css';
 @import 'less/header.css';
 @import 'less/services.css';
+@import 'less/team.css';
 @white-text: #ffffff;
 @black-text: #393939;
 @height-footer-and-header: 200px;
+@section-top: 120px;
 
 body {
     background: #fff;
     font-family: TitilliumWeb, sans-serif;
+    // .wrapper {
+    //     padding-left: 200px;
+    //     padding-right: 200px;
+    // }
+
     .section__title {
         position: relative;
         margin: 0 0 30px 0;
@@ -24,12 +31,7 @@ body {
         background: #14a58c;
         position: absolute;
     }
-    .section-team {
-        background: #e7f1f8;
-        .section__title:after {
-            background: #c8d9e5;
-        }
-    }
+    
     .section-skills {
         background: #ffffff;
         .section__title:after {
@@ -69,8 +71,8 @@ body {
 section {
     height: 750px;
     text-align: center;
-    // padding-left: 170px;
-    // padding-right: 170px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 .white-text {
     color: @white-text;
