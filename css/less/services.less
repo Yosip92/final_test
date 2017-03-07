@@ -6,11 +6,42 @@
 .section-services {
     background: #17c2a4;
     padding-top: @section-top;
+    padding-left: 170px;
+    padding-right: 170px;
     a {
         font-size: 18px;
         color: #ffffff;
     }
     a:hover {
         text-decoration: none;
+    }
+    .row {
+        margin-top: 84px;
+        color: @white-text;
+        .col-sm-6 {
+            color: @white-text;
+        }
+    }
+}
+@media screen and (max-width: 1540px) {
+    .section-services {
+        padding-left: 0px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .section-services {
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 800px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .section-services {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 1200px;
     }
 }

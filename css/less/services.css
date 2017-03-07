@@ -1,6 +1,8 @@
 .section-services {
   background: #17c2a4;
   padding-top: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 .section-services a {
   font-size: 18px;
@@ -8,4 +10,33 @@
 }
 .section-services a:hover {
   text-decoration: none;
+}
+.section-services .row {
+  margin-top: 84px;
+  color: #ffffff;
+}
+.section-services .row .col-sm-6 {
+  color: #ffffff;
+}
+@media screen and (max-width: 1540px) {
+  .section-services {
+    padding-left: 0px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-services {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-services {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 1200px;
+  }
 }
