@@ -57,12 +57,10 @@
   text-decoration: none;
   border: solid #c86a40 4px;
   border-left: none;
-  border-right: none;
   border-top: none;
 }
 .section-work .button a:active {
-  border: solid #c86a40 4px;
-  border-left: none;
+  border: solid #643a79 4px;
   border-right: none;
   border-bottom: none;
   padding-top: 16px;
