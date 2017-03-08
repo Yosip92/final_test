@@ -1,4 +1,5 @@
 .section-team {
+  height: 916px;
   background: #e7f1f8;
   padding-top: 120px;
   padding-left: 170px;
@@ -6,4 +7,61 @@
 }
 .section-team .section__title:after {
   background: #c8d9e5;
+}
+.section-team .presc {
+  color: #3c4761;
+  font-size: 18px;
+}
+.section-team .row {
+  margin-top: 80px;
+}
+.section-team .row h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.section-team .row .blue-text {
+  font-size: 16px;
+  color: #30bae7;
+}
+.section-team .row .description {
+  font-size: 16px;
+  color: #3c4761;
+  margin-bottom: 30px;
+}
+.section-team .row .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1370px) {
+  .section-team {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-team {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 1200px;
+  }
+  .section-team .icons {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-team {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 2050px;
+  }
+  .section-team .row {
+    margin-top: 20px;
+  }
+  .section-team .row .col-sm-6 {
+    border: 2px solid grey;
+  }
 }
