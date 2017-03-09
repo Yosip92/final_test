@@ -1,51 +1,51 @@
-@white-text: #ffffff;
-@black-text: #393939;
 @section-top: 120px;
 
-.section-services {
-    background: #17c2a4;
+.section-skills {
+    background: #ffffff;
     padding-top: @section-top;
     padding-left: 170px;
     padding-right: 170px;
-    a {
+    height: 655px;
+    p {
         font-size: 18px;
-        color: #ffffff;
-    }
-    a:hover {
-        text-decoration: none;
+        color: #3c4761;
     }
     .row {
-        margin-top: 84px;
-        color: @white-text;
+        margin-top: 90px;
         .col-sm-6 {
-            color: @white-text;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+            p {
+                margin-top: 33px;
+                font-weight: bold;
+                font-size: 24px;
+                color: #3c4761;
+            }
         }
     }
 }
+.section-skills .section__title:after {
+    background: #dfe8ed;
+}
 @media screen and (max-width: 1540px) {
-    .section-services {
+    .section-skills {
         padding-left: 100px;
         padding-right: 100px;
         height: 700px;
     }
 }
-@media screen and (max-width: 1370px) {
-    .section-services {
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 700px;
-    }
-}
 @media screen and (max-width: 991px) {
-    .section-services {
-        padding-top: 0px;
+    .section-skills {
+        padding-top: 50px;
         padding-left: 0px;
         padding-right: 0px;
         height: 800px;
     }
 }
 @media screen and (max-width: 767px) {
-    .section-services {
+    .section-skills {
         padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;

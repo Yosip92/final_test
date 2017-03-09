@@ -19,6 +19,7 @@
 #header nav ul {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 #header nav ul li {
   list-style-type: none;
@@ -26,18 +27,18 @@
   color: #ffffff;
   padding: 10px;
 }
+#header nav ul li a {
+  color: #ffffff;
+}
+#header nav ul li a:hover {
+  text-decoration: none;
+}
+#header nav ul li a:visited {
+  color: #ffffff;
+}
 #header nav ul li:hover {
   background: #643a79;
   border-radius: 5px;
-}
-#header nav ul a {
-  color: #ffffff;
-}
-#header nav ul a:hover {
-  text-decoration: none;
-}
-#header nav ul a:visited {
-  color: #ffffff;
 }
 .section-work {
   background: #87509c;

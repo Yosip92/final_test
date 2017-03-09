@@ -2,6 +2,8 @@
 @import 'less/header.css';
 @import 'less/services.css';
 @import 'less/team.css';
+@import 'less/skills.css';
+
 body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
@@ -22,12 +24,7 @@ body .section__title:after {
   background: #14a58c;
   position: absolute;
 }
-body .section-skills {
-  background: #ffffff;
-}
-body .section-skills .section__title:after {
-  background: #dfe8ed;
-}
+
 body .section-portfolio {
   background: #ffdd99;
 }

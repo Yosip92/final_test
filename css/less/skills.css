@@ -1,0 +1,50 @@
+.section-skills {
+  background: #ffffff;
+  padding-top: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
+  height: 655px;
+}
+.section-skills p {
+  font-size: 18px;
+  color: #3c4761;
+}
+.section-skills .row {
+  margin-top: 90px;
+}
+.section-skills .row .col-sm-6 img {
+  width: 160px;
+  height: 160px;
+}
+.section-skills .row .col-sm-6 p {
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #3c4761;
+}
+.section-skills .section__title:after {
+  background: #dfe8ed;
+}
+@media screen and (max-width: 1540px) {
+  .section-skills {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-skills {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-skills {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 1200px;
+  }
+}

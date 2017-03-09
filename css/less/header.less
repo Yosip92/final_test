@@ -21,24 +21,25 @@
         ul {
             display: flex;
             justify-content: space-between;
+            flex-direction: row;
             li {
                 list-style-type: none;
                 font-size: 16px;
-                color: #ffffff;
+                color: @white-text;
                 padding: 10px;
+                a {
+                    color: #ffffff;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: #ffffff;
+                }
             }
             li:hover {
                 background: #643a79;
                 border-radius: 5px;
-            }
-            a {
-                color: @white-text;
-            }
-            a:hover {
-                text-decoration: none;
-            }
-            a:visited {
-                color: #ffffff;
             }
         }
     }

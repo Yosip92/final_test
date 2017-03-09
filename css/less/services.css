@@ -25,9 +25,16 @@
     height: 700px;
   }
 }
+@media screen and (max-width: 1370px) {
+  .section-services {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 700px;
+  }
+}
 @media screen and (max-width: 991px) {
   .section-services {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
     height: 800px;
