@@ -3,7 +3,7 @@
 @import 'less/services.css';
 @import 'less/team.css';
 @import 'less/skills.css';
-
+@import 'less/portfolio.css';
 body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
@@ -23,13 +23,6 @@ body .section__title:after {
   margin: auto;
   background: #14a58c;
   position: absolute;
-}
-
-body .section-portfolio {
-  background: #ffdd99;
-}
-body .section-portfolio .section__title:after {
-  background: #e5c37f;
 }
 body .section-about {
   background: #d74680;
