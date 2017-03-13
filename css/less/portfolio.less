@@ -1,5 +1,75 @@
+@black-text: #393939;
+@section-top: 120px;
 .section-portfolio {
     background: #ffdd99;
+    height: 1420px;
+    padding-top: @section-top;
+    .text-port {
+        font-size: 18px;
+        color: #393939;
+        font-weight: normal;
+    }
+    .buttons {
+        width: 380px;
+        margin: auto;
+        margin-top: 20px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            li {
+                font-size: 18px;
+                list-style-type: none;
+                background: #ebc985;
+                padding: 8px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                a {
+                    text-decoration: none;
+                    color: @black-text;
+                    font-weight: 600;
+                }
+            }
+            li:hover {
+                background: #ffffff;
+            }
+        }
+    }
+    .row {
+        margin-top: 50px;
+        img {
+            width: 538px;
+            height: 311px;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 20px;
+        }
+    }
+    .button-load {
+        font-size: 18px;
+        margin: auto;
+        margin-top: 80px;
+        padding: 18px 52px;
+        background: #17c2a4;
+        width: 290px;
+        border-radius: 5px;
+        border: solid #14a58c 4px;
+        border-left: none;
+        border-top: none;
+        cursor: pointer;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    .button-load:active {
+        border: solid #14a58c 4px;
+        border-right: none;
+        border-bottom: none;
+    }
     .section__title:after {
         background: #e5c37f;
     }
