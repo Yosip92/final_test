@@ -44,28 +44,27 @@
   background: #87509c;
 }
 .section-work .button {
+  margin: auto;
   margin-top: 60px;
+  background: #eb7d4b;
+  padding: 30px 80px;
+  width: 290px;
+  border-radius: 7px;
+  border: solid #c86a40 4px;
+  border-left: none;
+  border-top: none;
+  cursor: pointer;
 }
 .section-work .button a {
   color: #ffffff;
   font-size: 16px;
-  background: #eb7d4b;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 85px;
-  padding-right: 85px;
-  border-radius: 7px;
   text-decoration: none;
-  border: solid #c86a40 4px;
-  border-left: none;
-  border-top: none;
 }
-.section-work .button a:active {
+.section-work .button:active {
   border: solid #714f82 4px;
   border-right: none;
   border-bottom: none;
-  padding-top: 16px;
-  padding-bottom: 24px;
+  padding: 30px 80px;
 }
 @media screen and (max-width: 1540px) {
   .section-work {
