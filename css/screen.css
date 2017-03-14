@@ -4,6 +4,7 @@
 @import 'less/team.css';
 @import 'less/skills.css';
 @import 'less/portfolio.css';
+@import 'less/about.css';
 body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
@@ -23,12 +24,6 @@ body .section__title:after {
   margin: auto;
   background: #14a58c;
   position: absolute;
-}
-body .section-about {
-  background: #d74680;
-}
-body .section-about .section__title:after {
-  background: #b73c6d;
 }
 body .section-form {
   background: #3c5499;

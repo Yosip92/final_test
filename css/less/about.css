@@ -1,0 +1,50 @@
+.section-about {
+  background: #d74680;
+  padding-top: 120px;
+  height: 900px;
+}
+.section-about .about-us {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.section-about .row {
+  margin-top: 50px;
+}
+.section-about .row .col-md-6 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 130px;
+}
+.section-about .row .col-md-6 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-top: 18px;
+}
+.section-about .row .col-md-6 .about-text {
+  margin-top: 20px;
+  width: 350px;
+}
+.section-about .row .col-md-6 .about-text p {
+  text-align: left;
+}
+.section-about .row .col-md-6 .about-text .quote {
+  font-size: 21px;
+  color: #ffffff;
+  font-style: italic;
+}
+.section-about .row .col-md-6 .about-text .name {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.section-about .row .col-md-6 .about-text .position {
+  font-size: 18px;
+  color: #ffdd99;
+  font-weight: normal;
+}
+.section-about .section__title:after {
+  background: #b73c6d;
+}

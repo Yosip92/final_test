@@ -1,0 +1,52 @@
+@section-top: 120px;
+
+.section-about {
+    background: #d74680;
+    padding-top: @section-top;
+    height: 900px;
+    .about-us {
+        font-size: 18px;
+        font-weight: normal;
+        color: #ffffff;
+    }
+    .row {
+        margin-top: 50px;
+        .col-md-6 {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 130px;
+            img {
+                height: 100px;
+                width: 100px;
+                border-radius: 50px;
+                margin-right: 50px;
+                margin-top: 18px;
+            }
+            .about-text {
+                margin-top: 20px;
+                width: 350px;
+                p {
+                    text-align: left;
+                }
+                .quote {
+                    font-size: 21px;
+                    color: #ffffff;
+                    font-style: italic;
+                }
+                .name {
+                    font-size: 24px;
+                    color: #ffffff;
+                    font-weight: bold;
+                }
+                .position {
+                    font-size: 18px;
+                    color: #ffdd99;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    .section__title:after {
+        background: #b73c6d;
+    }
+}
