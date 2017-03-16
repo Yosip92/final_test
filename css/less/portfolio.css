@@ -63,6 +63,7 @@
 .section-portfolio .button-load a {
   color: #ffffff;
   text-decoration: none;
+  font-weight: 500;
 }
 .section-portfolio .button-load:active {
   border: solid #e5c689 4px;

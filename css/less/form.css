@@ -1,0 +1,67 @@
+.section-form {
+  background: #3c5499;
+  padding-top: 120px;
+  height: 820px;
+}
+.section-form .section__title:after {
+  background: #273a71;
+}
+.section-form p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.section-form form {
+  width: 860px;
+  margin-left: 12%;
+  margin-top: 80px;
+}
+.section-form form .form-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 55px;
+}
+.section-form form .form-top .name {
+  background: #273a71;
+  border: none;
+  border-radius: 4px;
+  width: 410px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 25px;
+  color: white;
+}
+.section-form form .form-top .email {
+  width: 410px;
+  background: #273a71;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 25px;
+  color: white;
+}
+.section-form form .form-bottom {
+  margin-top: 30px;
+  width: 860px;
+  height: 200px;
+  background: #273a71;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 25px;
+  color: white;
+  display: block;
+}
+.section-form form .btn {
+  margin-top: 60px;
+  width: 290px;
+  height: 70px;
+  background: #30bae7;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 22px;
+}
