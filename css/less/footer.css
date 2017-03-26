@@ -1,0 +1,20 @@
+#footer {
+  height: 200px;
+  text-align: center;
+  background: #344b8e;
+  height: 110px;
+}
+#footer .footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+#footer .footer a {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+#footer .footer a:hover {
+  color: #30bae7;
+  text-decoration: none;
+}

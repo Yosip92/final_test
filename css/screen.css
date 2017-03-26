@@ -6,6 +6,7 @@
 @import 'less/portfolio.css';
 @import 'less/about.css';
 @import 'less/form.css';
+@import 'less/footer.css';
 body {
   background: #fff;
   font-family: TitilliumWeb, sans-serif;
@@ -25,13 +26,6 @@ body .section__title:after {
   margin: auto;
   background: #14a58c;
   position: absolute;
-}
-body #footer {
-  height: 200px;
-  text-align: center;
-  background: #344b8e;
-  padding-left: 170px;
-  padding-right: 170px;
 }
 .container {
   margin: 0 auto;
