@@ -47,18 +47,19 @@
   margin: auto;
   margin-top: 60px;
   background: #eb7d4b;
-  padding: 30px 80px;
-  width: 290px;
   border-radius: 7px;
   border: solid #c86a40 4px;
   border-left: none;
   border-top: none;
   cursor: pointer;
+  display: inline-block;
 }
 .section-work .button a {
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
+  padding: 40px 90px;
+  display: inline-block;
 }
 .section-work .button:active {
   border: solid #714f82 4px;
