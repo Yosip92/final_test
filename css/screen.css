@@ -28,15 +28,12 @@ body .section__title:after {
   background: #14a58c;
   position: absolute;
 }
-<<<<<<< HEAD
-=======
 body #footer {
   height: 200px;
   text-align: center;
   background: #344b8e;
   clear: both;
 }
->>>>>>> origin/master
 .container {
   margin: 0 auto;
 }
