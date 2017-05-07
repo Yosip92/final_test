@@ -4,6 +4,7 @@
 
 .header {
     height: 600px;
+    padding-top: 0px;
 }
 #header {
     height: @height-footer-and-header;
@@ -15,6 +16,10 @@
     top: 0;
     z-index: 1000;
     height: 80px;
+    opacity: 0.5;
+    &:hover {
+        opacity: 1;
+    }
     img {
         margin-left: 180px;
         margin-top: 30px;
@@ -41,14 +46,16 @@
             }
             li:hover {
                 background: #643a79;
-                border-radius: 5px;
+                border-radius: 15px;
             }
         }
     }
 }
 .section-work {
-    padding-top: 200px;
     background: #87509c;
+    .container {
+        padding-top: 80px;
+    }
     .button {
         font-size: 18px;
         margin: auto;

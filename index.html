@@ -9,28 +9,28 @@
     <!--my css-->
     <link rel="stylesheet" href="css/screen.css">
 </head>
-<body>
-    <div class="wrapper">
+<body onhashchange="change();">
+    <div>
         <div class="header">
             <header id="header">
                 <div class="container">
                     <img src="img\cuda\Cuda-Single-Page-Portfolio_03.png" alt="CUDA">
                 </div>
                 <nav>
-                    <ul>
-                        <li id="home2">
+                    <ul id="menu">
+                        <li onclick="myClick('/home1')" class="menuItem home1">
                             <a href="#home">HOME</a>
                         </li>
-                        <li id="blog2">
+                        <li onclick="myClick('/blog1')" class="menuItem blog1">
                             <a href="#blog">BLOG</a>
                         </li>
-                        <li>
+                        <li onclick="myClick('/work1')" class="menuItem work1">
                             <a href="#work">WORK</a>
                         </li>
-                        <li>
+                        <li onclick="myClick('/about1')" class="menuItem about1">
                             <a href="#about">ABOUT</a>
                         </li>
-                        <li>
+                        <li onclick="myClick('/contact1')" class="menuItem contact1">
                             <a href="#contact">CONTACT</a>
                         </li>
                     </ul>
@@ -54,7 +54,7 @@
                 <a>We are working with both individuals and businesses from all over the globe<br> 
                 to create awesome websites and applications.</a>
             </div>
-            <div class="row">
+            <div class="row row-own">
                 <div class="col-sm-6 col-md-3">
                     <img src="img\cuda\Cuda-Single-Page-Portfolio_13.png" alt="">
                     <h3>BRANDING</h3>
