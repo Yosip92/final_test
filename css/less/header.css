@@ -1,9 +1,7 @@
 .header {
-  height: 600px;
   padding-top: 0px;
 }
 #header {
-  height: 200px;
   background: #87509c;
   display: flex;
   justify-content: space-around;
@@ -17,14 +15,23 @@
 #header:hover {
   opacity: 1;
 }
-#header img {
-  margin-left: 180px;
+#header .container img {
+  margin-left: 10%;
   margin-top: 30px;
+}
+#header .menu-btn {
+  margin-right: 10%;
+  margin-top: 30px;
+}
+#header .menu-btn img {
+  height: 45px;
+  width: 45px;
+  display: none;
 }
 #header nav {
   margin-top: 30px;
-  margin-right: 200px;
-  width: 444px;
+  margin-right: 10%;
+  width: auto;
 }
 #header nav ul {
   display: flex;
@@ -49,6 +56,7 @@
 }
 .section-work {
   background: #87509c;
+  padding-top: 80px;
 }
 .section-work .container {
   padding-top: 80px;
@@ -80,7 +88,6 @@
   .section-work {
     padding-left: 100px;
     padding-right: 100px;
-    height: 700px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -88,7 +95,6 @@
     padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 800px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -96,9 +102,11 @@
     padding-top: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 1200px;
   }
-  .header {
-    height: 800px;
+  #header .menu-btn img {
+    display: block;
+  }
+  #header nav {
+    display: none;
   }
 }
