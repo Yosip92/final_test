@@ -1,5 +1,6 @@
 .header {
   height: 600px;
+  padding-top: 0px;
 }
 #header {
   height: 200px;
@@ -11,6 +12,10 @@
   top: 0;
   z-index: 1000;
   height: 80px;
+  opacity: 0.5;
+}
+#header:hover {
+  opacity: 1;
 }
 #header img {
   margin-left: 180px;
@@ -40,7 +45,7 @@
 }
 #header nav ul li:hover {
   background: #643a79;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .section-work {
   padding-top: 200px;

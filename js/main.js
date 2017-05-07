@@ -1,12 +1,35 @@
-console.log('HELO JS');
+// console.log('HELO JS');
 
-var page = location.hash;
-console.log('page',page);
-function Style(page){
-  if (page == "#home"){
-    document.getElementById("home2").style = "background: black;"
-  }
-  else if (page == "#blog"){
-    document.getElementById("blog2").style = "background: black;"
-  }
+
+function myClick(url) {
+  console.log("url", url);
+    var newUrl = location.host + location.pathname;
+  console.log("newUrl", newUrl);
+
+     $(".menuItem").css("background","#87509c");
+    switch (url) {
+      case "#home1": {
+        $(".home1").css("background","#643a79");
+        break;
+      }
+      case "#blog1": {
+        $(".blog1").css("background","#643a79");
+        break;
+      }
+      case "#work1": {
+        $(".work1").css("background","#643a79");
+        break;
+      }
+      case "#about1": {
+        $(".about1").css("background","#643a79");
+        break;
+      }
+      case "#contact1": {
+        $(".contact1").css("background","#643a79");
+        break;
+      }
+    }
 }
+
+el = document.getElementById("menu");
+el.addEventListener("click", function(url){myClick}, false);

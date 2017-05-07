@@ -29,7 +29,6 @@ body .section__title:after {
   position: absolute;
 }
 body #footer {
-  height: 200px;
   text-align: center;
   background: #344b8e;
   clear: both;

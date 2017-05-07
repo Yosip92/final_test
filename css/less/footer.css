@@ -1,23 +1,22 @@
-#footer {
-  height: 200px;
+footer {
   text-align: center;
   background: #344b8e;
-  height: 110px;
 }
-#footer .footer {
+footer .footer {
   display: flex;
   justify-content: space-around;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
-#footer .footer a {
+footer .footer a {
   font-size: 24px;
   font-weight: 500;
   color: #ffffff;
 }
-#footer .footer a:hover {
+footer .footer a:hover {
   color: #30bae7;
   text-decoration: none;
 }
-#footer .footer a:visited {
+footer .footer a:visited {
   text-decoration: none;
 }
