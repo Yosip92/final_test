@@ -43,13 +43,20 @@ el = document.getElementById("menu");
 //   var url = location.hash;
 //   replace(url[0])
 //console.log($('.btn'));
-function val()
-{
-  console.log($('input')[1].value);
-}
+// function val()
+// {
+//   console.log($('input')[1].value);
+// }
 // function res()
 // {
 //   document.getElementsByTagName('form')[0].reset();
 // }
+function val3(){
+  var x = $('input')[0].value,
+  y = $('input')[2].value;
+  console.log(x + y);
+  $('#result').html("Input " + x + " + " + y); 
+}
+
 document.write(document.getElementsByTagName('form')[0].action + '<br />');
 document.write(document.getElementsByTagName('form')[0].method);
