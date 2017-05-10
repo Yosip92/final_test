@@ -278,15 +278,17 @@
                 </h2>
                 <p>1600 Pennsylvania Ave NW, Washington, DC 20500, 
                     United States of America. Tel: (202) 456-1111</p>
-                <form action="#" target="_self" method="get">
+                <form action="http://www.wisdomweb.ru/testform.php" method="post">
                     <div class="form-top">
                         <input type="text" class="name" name="name" placeholder="Your Name">
                         <input type="email" class="email" name="email" placeholder="Your Email">
                     </div>
-                    <textarea name="usercomment" class="form-bottom" placeholder="Your Message" id="#" cols="30" rows="10"></textarea>
+                    <input type="text"/>
+                    <input type="submit">
+                    <!--<textarea name="usercomment" class="form-bottom" placeholder="Your Message" id="#" cols="30" rows="10"></textarea>-->
                         <!--<input type="text" contenteditable="true" class="form-bottom" placeholder="Your Message">-->
                     <!--<button type="submit" class="btn">SEND MESSAGE</button>-->
-                    <input type="submit" value="SEND MESSAGE" class="btn">
+                    <button type="button" value="SEND MESSAGE" onclick="val()" class="btn">Скинути</button>
                 </form>
             </div>
         </section>

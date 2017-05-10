@@ -36,12 +36,20 @@ function myClick(url) {
 }
 
 el = document.getElementById("menu");
-el.addEventListener("click", function(url){myClick}, false);
+// el.addEventListener("click", function(url){myClick}, false);
 
 // window.addEventListener(hashchange)
 // function change(){
 //   var url = location.hash;
 //   replace(url[0])
-
-el = document.getElementById("menu");
-el.addEventListener("click", function(url){myClick}, false);
+//console.log($('.btn'));
+function val()
+{
+  console.log($('input')[1].value);
+}
+// function res()
+// {
+//   document.getElementsByTagName('form')[0].reset();
+// }
+document.write(document.getElementsByTagName('form')[0].action + '<br />');
+document.write(document.getElementsByTagName('form')[0].method);
