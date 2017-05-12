@@ -52,11 +52,37 @@ el = document.getElementById("menu");
 //   document.getElementsByTagName('form')[0].reset();
 // }
 function val3(){
-  var x = $('input')[0].value,
-  y = $('input')[2].value;
+  var x = $('input[name=name1]').val(),
+  y = $('input[name=name2]').val(),
+  z = /^[-._a-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$/,
+  is_value = z.test(x);
   console.log(x + y);
-  $('#result').html("Input " + x + " + " + y); 
+  if (is_value){
+    $('#result').html("input " + x);
+  }
+  else {
+    $('#result').html("ERRORRRRRRR!!!!!!!");
+  }
 }
 
-document.write(document.getElementsByTagName('form')[0].action + '<br />');
-document.write(document.getElementsByTagName('form')[0].method);
+// function val4(){
+//   var z = $('select').val();
+//   var strUser = e.options[e.selectedIndex].val();
+//   // $('#result').html('. Selected' + z);
+// }
+function check() {
+  var checkedVal1 = $('[name=option1]:checked').val();
+  var checkedVal2 = $('[name=option2]:checked').val();
+  var checkedVal3 = $('[name=option3]:checked').val();
+  var checkedVal4 = $('[name=option4]:checked').val();
+  var checkedVal5 = $('[name=option5]:checked').val();
+  if (checkedVal2 != undefined) {
+    $('#res2').html('checked ' + checkedVal1 + checkedVal2 + checkedVal3 + checkedVal4 + checkedVal5);
+  }
+  else if (checkedVal2 == undefined) {
+    $('#res2').html('');
+  }
+}
+
+//document.write(document.getElementsByTagName('form')[0].action + '<br />');
+//document.write(document.getElementsByTagName('form')[0].method);

@@ -279,12 +279,27 @@
                 <p>1600 Pennsylvania Ave NW, Washington, DC 20500, 
                     United States of America. Tel: (202) 456-1111</p>
                 <div id="result"></div>
-                <form action="http://www.wisdomweb.ru/testform.php" method="post">
+                <div id="res2"></div>
+                <form action="" method="post">
                     <div class="form-top">
-                        <input type="text" class="name" onkeyup="val3()" name="name1" placeholder="Your Name">
-                        <input type="email" class="email" name="email" placeholder="Your Email">
+                        <input type="text" class="name" onchange="val3()" name="name1" placeholder="Your Name">
+                        <!--<input type="email" class="email" name="email" placeholder="Your Email">-->
                     </div>
-                    <input type="text" onkeyup="val3()" name="name2">
+                    <input type="radio" name="number1">number1
+                    <input type="radio" name="number2">number2
+                    <p class="checkbox">
+                        <input type="checkbox" onchange="check()" name="option1" value="a1">Windows 95/98<Br>
+                        <input type="checkbox" onchange="check()" name="option2" value="a2">Windows 2000<Br>
+                        <input type="checkbox" onchange="check()" name="option3" value="a3">System X<Br> 
+                        <input type="checkbox" onchange="check()" name="option4" value="a4">Linux<Br> 
+                        <input type="checkbox" onchange="check()" name="option5" value="a5">X3-DOS</p>
+                    <select name="cars" id="" onchange="val4()">
+                        <option value="volvo" onchange="val4()">Volvo</option>
+                        <option value="saab" onchange="val4()">Saab</option>
+                        <option value="fiat" onchange="val4()">Fiat</option>
+                        <option value="audi" onchange="val4()">Audi</option>
+                    </select>
+                    <input type="text" onchange="val3()" name="name2">
                     <input type="submit">
                     <!--<textarea name="usercomment" class="form-bottom" placeholder="Your Message" id="#" cols="30" rows="10"></textarea>-->
                         <!--<input type="text" contenteditable="true" class="form-bottom" placeholder="Your Message">-->
