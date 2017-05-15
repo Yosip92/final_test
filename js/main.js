@@ -84,5 +84,16 @@ function check() {
   }
 }
 
+function val4() {
+  var invis = $('#cars123').val();
+  console.log(invis);
+  if (invis == "audi") {
+    $('[name=name2]').hide();
+  }
+  else {
+    $('[name=name2]').show();
+  }
+}
+
 //document.write(document.getElementsByTagName('form')[0].action + '<br />');
 //document.write(document.getElementsByTagName('form')[0].method);
