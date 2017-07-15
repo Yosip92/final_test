@@ -63,6 +63,19 @@ function myClick(url) {
 //   else {
 //     $('#result').html("ERRORRRRRRR!!!!!!!");
 //   }
+// // }
+// function val3(){
+//   var x = $('input[name=name1]').val(),
+//   y = $('input[name=name2]').val(),
+//   z = /^[-._a-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$/,
+//   is_value = z.test(x);
+//   // console.log(x + y);
+//   if (is_value){
+//     $('#result').html("input " + x);
+//   }
+//   else {
+//     $('#result').html("ERRORRRRRRR!!!!!!!");
+//   }
 // }
 
 // function val4(){
@@ -97,3 +110,12 @@ function myClick(url) {
 
 //document.write(document.getElementsByTagName('form')[0].action + '<br />');
 //document.write(document.getElementsByTagName('form')[0].method);
+
+// document.cookie = "dmitro=name";
+// console.log("cookies = " + document.cookie);
+
+
+// // localStorage.setItem('myCat', 'Tom');
+// console.log('local Storage =', localStorage.myCat);
+// sessionStorage.setItem('myDog', 'Tuzik');
+// console.log('my dog is', sessionStorage.myDog);
