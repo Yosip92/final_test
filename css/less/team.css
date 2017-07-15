@@ -1,9 +1,9 @@
 .section-team {
-  height: 916px;
   background: #e7f1f8;
   padding-top: 120px;
   padding-left: 170px;
   padding-right: 170px;
+  padding-bottom: 80px;
 }
 .section-team .section__title:after {
   background: #c8d9e5;
@@ -45,7 +45,6 @@
     padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 1200px;
   }
   .section-team .icons {
     padding-bottom: 20px;
@@ -56,7 +55,6 @@
     padding-top: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 2050px;
   }
   .section-team .row {
     margin-top: 20px;

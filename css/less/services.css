@@ -1,6 +1,7 @@
 .section-services {
   background: #17c2a4;
   padding-top: 120px;
+  padding-bottom: 60px;
 }
 .section-services a {
   font-size: 18px;
@@ -17,16 +18,10 @@
 .section-services .row-own .col-sm-6 {
   color: #ffffff;
 }
-@media screen and (max-width: 1540px) {
-  .section-services {
-    height: 700px;
-  }
-}
 @media screen and (max-width: 1370px) {
   .section-services {
     padding-left: 0px;
     padding-right: 0px;
-    height: 700px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -34,7 +29,6 @@
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 800px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -42,6 +36,5 @@
     padding-top: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 1200px;
   }
 }
